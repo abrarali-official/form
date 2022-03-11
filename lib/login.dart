@@ -43,11 +43,11 @@ class _MyLoginState extends State<MyLogin> {
                   children: [
                     TextField(
                       decoration: InputDecoration(
-                        fillColor: Colors.white,
+                        fillColor: Color.fromARGB(115, 255, 255, 255),
                         filled: true,
                         hintText: 'Name',
                         border: OutlineInputBorder(
-                            borderRadius: BorderRadius.circular(50)),
+                            borderRadius: BorderRadius.circular(10)),
                       ),
                     ),
                     SizedBox(
@@ -56,11 +56,11 @@ class _MyLoginState extends State<MyLogin> {
                     TextField(
                       // obscureText: true,
                       decoration: InputDecoration(
-                        fillColor: Colors.white,
+                        fillColor: Color.fromARGB(115, 255, 255, 255),
                         filled: true,
                         hintText: 'Phone Number',
                         border: OutlineInputBorder(
-                            borderRadius: BorderRadius.circular(50)),
+                            borderRadius: BorderRadius.circular(10)),
                       ),
                     ),
                     SizedBox(
