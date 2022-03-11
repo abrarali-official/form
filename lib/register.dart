@@ -44,7 +44,7 @@ class _registerState extends State<register> {
                         filled: true,
                         hintText: 'Name',
                         border: OutlineInputBorder(
-                            borderRadius: BorderRadius.circular(50)),
+                            borderRadius: BorderRadius.circular(10)),
                       ),
                     ),
                     const SizedBox(
@@ -56,7 +56,7 @@ class _registerState extends State<register> {
                         filled: true,
                         hintText: 'Address',
                         border: OutlineInputBorder(
-                            borderRadius: BorderRadius.circular(50)),
+                            borderRadius: BorderRadius.circular(10)),
                       ),
                     ),
                     const SizedBox(
@@ -69,7 +69,7 @@ class _registerState extends State<register> {
                         filled: true,
                         hintText: 'Order Detail',
                         border: OutlineInputBorder(
-                            borderRadius: BorderRadius.circular(50)),
+                            borderRadius: BorderRadius.circular(10)),
                       ),
                     ),
                     const SizedBox(
