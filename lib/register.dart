@@ -54,7 +54,7 @@ class _registerState extends State<register> {
                       decoration: InputDecoration(
                         fillColor: Colors.white,
                         filled: true,
-                        hintText: 'Email',
+                        hintText: 'Address',
                         border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(50)),
                       ),
@@ -97,26 +97,26 @@ class _registerState extends State<register> {
                         // )
                       ],
                     ),
-                    const SizedBox(
-                      height: 50,
-                    ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        TextButton(
-                            onPressed: () {
-                              Navigator.pushNamed(context, 'register');
-                            },
-                            child: const Text(
-                              'Sign In',
-                              style: TextStyle(
-                                decoration: TextDecoration.underline,
-                                fontSize: 20,
-                                color: Colors.white,
-                              ),
-                            )),
-                      ],
-                    )
+                    // const SizedBox(
+                    //   height: 50,
+                    // ),
+                    // // Row(
+                    //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    //   children: [
+                    //     TextButton(
+                    //         onPressed: () {
+                    //           Navigator.pushNamed(context, 'register');
+                    //         },
+                    //         child: const Text(
+                    //           'Sign In',
+                    //           style: TextStyle(
+                    //             decoration: TextDecoration.underline,
+                    //             fontSize: 20,
+                    //             color: Colors.white,
+                    //           ),
+                    //         )),
+                    //   ],
+                    // )
                   ],
                 ),
               ),
