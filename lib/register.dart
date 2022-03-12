@@ -40,7 +40,7 @@ class _registerState extends State<register> {
                   children: [
                     TextField(
                       decoration: InputDecoration(
-                        fillColor: Colors.white,
+                        fillColor: Color.fromARGB(115, 255, 255, 255),
                         filled: true,
                         hintText: 'Name',
                         border: OutlineInputBorder(
@@ -52,7 +52,7 @@ class _registerState extends State<register> {
                     ),
                     TextField(
                       decoration: InputDecoration(
-                        fillColor: Colors.white,
+                        fillColor: Color.fromARGB(115, 255, 255, 255),
                         filled: true,
                         hintText: 'Address',
                         border: OutlineInputBorder(
@@ -65,9 +65,9 @@ class _registerState extends State<register> {
                     TextField(
                       obscureText: true,
                       decoration: InputDecoration(
-                        fillColor: Colors.white,
+                        fillColor: Color.fromARGB(115, 255, 255, 255),
                         filled: true,
-                        hintText: 'Password',
+                        hintText: 'Order Detail',
                         border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(50)),
                       ),
@@ -79,7 +79,7 @@ class _registerState extends State<register> {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         const Text(
-                          'Sign Up',
+                          'Submit',
                           style: TextStyle(
                               fontSize: 36,
                               fontWeight: FontWeight.bold,
